@@ -1,3 +1,1 @@
-# kevinvile.github.io
-
-!My New Site
+# The Home Of Me
