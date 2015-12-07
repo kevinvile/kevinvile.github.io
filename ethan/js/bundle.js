@@ -48,7 +48,7 @@
 	var startTimestamp;
 	var checkSeconds = 0.1;
 	var maxSeconds = 5;
-	var audio = new Audio('audio/railroad_crossing_bell.mp3');
+	var audio = document.getElementById('myaudio'); //new Audio('audio/railroad_crossing_bell.mp3');
 	
 	audio.addEventListener('ended', function () {
 		audio.play();
