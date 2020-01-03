@@ -58,7 +58,7 @@ td {
     </div>
   </nav>
 
-<center><img src="2019Bowls/HD Pennant 2019.png" height="30%"></center>
+<center><img src="2019Bowls/HD Pennant 2019.png" height="250px"></center>
 
 <table id="top" align="center" width="90%">
 <tr><td align="center" colspan="2">
@@ -4571,7 +4571,7 @@ Joe	Yskes	<br></b>
 
 <td align="center" valign="top"width="25%">
 
-Oklahoma Sooners 28<br><br><br><br>
+Oklahoma Sooners 28<br><br><br><br><br>
 
 Randy	James	<br>
 Hal	Jarvis	<br>
@@ -4788,6 +4788,7 @@ Joe	Yskes<br>
 </table>
 
 <div style="margin-left: 10px;" >
+<a href="#top" id="leaderboard"></a>
 <left><blockquote><font size="4"><strong>Leader Board (THROUGH 35 GAMES)</strong></font><br></blockquote>
 <table bgcolor=white cellpadding=0 cellspacing=0>
 <td><ol>
@@ -5077,5 +5078,12 @@ POINTS
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+  $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
+</script>
 </body>
 </html>
